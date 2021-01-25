@@ -10,7 +10,7 @@ public class SpanArray
         while (n-- > 0) {
             int x = s.nextInt();
             max = Math.max(max, x);
-            min = Math.min(min, x);
+            min = Math.min(min, x); 
         }
         System.out.println(max-min);
     }
